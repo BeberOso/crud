@@ -1,0 +1,76 @@
+Extensiones 
+Laravel snippets
+Bootstrap 5
+Bracker
+Php debug
+Php intelephense
+
+
+
+
+Instalar composer
+Instalar vsc
+Instalar npm
+Instalar xampp
+Instalar php
+
+
+
+En htdocs abrir powershell 
+
+composer create-project laravel/laravel nombre 
+
+Localhost/libreria/public 
+
+Configurar en .env 
+
+php artisan make:migrations libro 
+
+En databasw/migration 
+Editar la ultima 
+En público function up 
+
+Crear schema table
+Crear campos 
+
+Php artisan migrate 
+
+Composer require laravel/ui 
+
+Php artisan ui bootstrap --auth 
+
+Npm install 
+
+Npm run dev 
+
+Localhost/proyecto/public/login 
+
+Composer require ibex/crud-generator --dev 
+
+Php artisan vendor:publish --tag=crud 
+
+Php artisan make:crud libros 
+
+Revisar resources/view/libro 
+
+En routes/web 
+
+Route::resource('libro',App\Http\Controllers\LibroController::class)->middleware('auth'); 
+
+Localhost/proyecto/public/libros 
+
+Resources/views/layouts/app.blade.php 
+
+Lin 34 
+
+@if (Auth::check())
+Ul
+Copiar a de linea 45
+Cambiar route libros.index
+Libros en lugar de Login
+Routes 
+Web.php
+Linea 18
+Route
+Cambiar welcome por auth.login 
+@endif
